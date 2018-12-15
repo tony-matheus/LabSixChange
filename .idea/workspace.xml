@@ -51,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="21">
-              <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+              <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -304,7 +304,7 @@
       <workItem from="1544696380922" duration="2377000" />
       <workItem from="1544734188172" duration="2672000" />
       <workItem from="1544782269955" duration="615000" />
-      <workItem from="1544878843279" duration="5450000" />
+      <workItem from="1544878843279" duration="5594000" />
     </task>
     <task id="LOCAL-00001" summary="- Service rspec test&#10;- Service Create&#10;- Tests finished&#10;- Tests Succefully">
       <created>1544697638761</created>
@@ -317,7 +317,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22978000" />
+    <option name="totallyTimeSpent" value="23122000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -706,7 +706,7 @@
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
-          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
         </state>
       </provider>
     </entry>

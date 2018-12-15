@@ -1,5 +1,5 @@
 {
-  "engine" : {"node" : ">=6"},
+  "engines" : {"node" : ">=6"},
   "name": "LabSixChange",
   "private": true,
   "dependencies": {
