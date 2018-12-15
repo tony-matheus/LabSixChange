@@ -3,7 +3,7 @@ $(document).ready(function () {
    $('form').submit(function () {
        if($('form').attr('action') == '/convert'){
            $.ajax({
-               url: 'http://localhost:3000/convert',
+               url: '/convert',
                type: 'GET',
                dataType: 'json',
                data: {
