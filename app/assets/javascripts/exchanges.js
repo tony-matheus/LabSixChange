@@ -4,8 +4,7 @@ $(document).ready(function () {
 
     $('form').submit(function () {
        if($('form').attr('action') == '/convert'){
-           console.log("hello");
-           convert()
+           convert();
            return false
        }
    })
@@ -14,6 +13,11 @@ $(document).ready(function () {
         convert()
     });
 });
+
+$(window).resize(function(){
+    Screen.ajustReverseBox();
+});
+
 
 var Screen = {
     ajustReverseBox : function () {
@@ -46,13 +50,45 @@ var Screen = {
 
 
 function convert() {
+    let source = $("#source_currency").val();
+    let target = $("#target_currency").val();
+    if(source == "BTC" || target == "BTC" ){
+        bitcoin(source, target)
+        return
+    }
     $.ajax({
         url: '/convert',
         type: 'GET',
         dataType: 'json',
         data: {
-            source_currency: $("#source_currency").val(),
-            target_currency: $("#target_currency").val(),
+            source_currency: source,
+            target_currency: target,
+            amount: $("#amount").val()
+        },
+        success: function (data, text, jqXHR) {
+            $("#result").val(data.value);
+        },
+        error: function (jqXHR, textStatus, errorThrown) {
+            alert("error");
+        }
+    });
+}
+
+function bitcoin(source, target, exchange = "") {
+    if(source == "BTC" ) {
+        exchange = "from"
+    }else if(target == "BTC"){
+        exchange = "to"
+    }
+
+    $.ajax({
+        url: '/bitcoin',
+        type: 'GET',
+        dataType: 'json',
+        data: {
+            source_currency: source,
+            target_currency: target,
+            exchange: exchange,
             amount: $("#amount").val()
         },
         success: function (data, text, jqXHR) {

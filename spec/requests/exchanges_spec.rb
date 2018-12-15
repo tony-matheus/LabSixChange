@@ -26,5 +26,33 @@ RSpec.describe "Exchanges", type: :request do
     end
 
   end
+  describe 'POST #bitcoin' do
 
+    before do
+      @amount = rand(1...9999)
+    end
+
+    it 'to bitcoin' do
+      get '/bitcoin', params: {
+          source_currency: 'USD',
+          target_currency: 'USD',
+          exchange: 'to',
+          amount: @amount
+      }
+
+      expect(response).to have_http_status(200)
+    end
+
+    it 'from bitcoin' do
+      get '/bitcoin', params: {
+          source_currency: 'USD',
+          target_currency: 'USD',
+          exchange: 'from',
+          amount: @amount
+      }
+
+      expect(response).to have_http_status(200)
+    end
+
+  end
 end
