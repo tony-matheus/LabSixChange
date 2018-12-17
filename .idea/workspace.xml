@@ -3,16 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e29ebd45-05ca-4b35-bb83-f35c99e57336" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/exchanges.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/exchanges.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/exchanges_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/exchanges_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/exchanges_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/exchanges_helper.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/exchange_service.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/exchange_service.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/credentials.yml.enc" beforeDir="false" afterPath="$PROJECT_DIR$/config/credentials.yml.enc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/requests/exchanges_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/requests/exchanges_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/services/exchange_service_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/services/exchange_service_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/support/api_data.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/support/api_data.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/exchanges/_exchange_box.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/exchanges/_exchange_box.html.erb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -29,7 +20,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="exchanges.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="exchanges.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/exchanges.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="64">
@@ -41,11 +32,29 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="exchanges_spec.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/requests/exchanges_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_exchange_box.html.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/exchanges/_exchange_box.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="exchanges.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/exchanges.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+            <state relative-caret-position="210">
+              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -53,7 +62,7 @@
       <file leaf-file-name="_exchange_box.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/_exchange_box.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
+            <state relative-caret-position="672">
               <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
             </state>
           </provider>
@@ -92,7 +101,6 @@
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
-        <option value="$PROJECT_DIR$/app/views/exchanges/_exchange_box.html.erb" />
         <option value="$PROJECT_DIR$/spec/services/exchange_service_spec.rb" />
         <option value="$PROJECT_DIR$/spec/support/api_data.rb" />
         <option value="$PROJECT_DIR$/app/services/exchange_service.rb" />
@@ -103,6 +111,7 @@
         <option value="$PROJECT_DIR$/app/controllers/exchanges_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/_exchange_box.scss" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/exchanges.js" />
+        <option value="$PROJECT_DIR$/app/views/exchanges/_exchange_box.html.erb" />
       </list>
     </option>
   </component>
@@ -121,10 +130,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="39" />
-    <option name="y" value="-746" />
-    <option name="width" value="1343" />
-    <option name="height" value="745" />
+    <option name="y" value="22" />
+    <option name="width" value="1280" />
+    <option name="height" value="741" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -132,7 +140,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,10 +172,41 @@
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LabSixChange" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LabSixChange" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LabSixChange" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LabSixChange" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="exchanges" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LabSixChange" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LabSixChange" type="462c0819:PsiDirectoryNode" />
+              <item name="spec" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LabSixChange" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LabSixChange" type="462c0819:PsiDirectoryNode" />
+              <item name="spec" type="462c0819:PsiDirectoryNode" />
+              <item name="requests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LabSixChange" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LabSixChange" type="462c0819:PsiDirectoryNode" />
+              <item name="spec" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -310,7 +348,8 @@
       <workItem from="1544696380922" duration="2377000" />
       <workItem from="1544734188172" duration="2672000" />
       <workItem from="1544782269955" duration="615000" />
-      <workItem from="1544878843279" duration="16074000" />
+      <workItem from="1544878843279" duration="17546000" />
+      <workItem from="1545051134449" duration="102000" />
     </task>
     <task id="LOCAL-00001" summary="- Service rspec test&#10;- Service Create&#10;- Tests finished&#10;- Tests Succefully">
       <created>1544697638761</created>
@@ -323,7 +362,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33602000" />
+    <option name="totallyTimeSpent" value="35176000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -335,20 +374,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-746" width="1360" height="746" extended-state="6" />
+    <frame x="0" y="22" width="1280" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18820679" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.328594" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007587" side_tool="true" weight="0.38546604" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.328594" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49924126" visible="true" weight="0.38546604" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17450683" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3280255" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49924126" visible="true" weight="0.0477707" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -358,6 +396,7 @@
       <window_info anchor="bottom" id="Messages" order="7" weight="0.328594" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3280255" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -611,13 +650,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/exchanges/_exchange_box.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="21" column="62" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -667,13 +699,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/requests/exchanges_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="37" column="33" lean-forward="true" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/services/exchange_service.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -685,9 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
-          <folding>
-            <element signature="e#52#67#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -700,14 +722,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/exchanges.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        <state relative-caret-position="210">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/_exchange_box.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
+        <state relative-caret-position="672">
           <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
         </state>
       </provider>
@@ -719,6 +741,20 @@
           <folding>
             <element signature="n#!!block;n#convert#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/requests/exchanges_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/exchanges/_exchange_box.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
         </state>
       </provider>
     </entry>
